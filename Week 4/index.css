@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 80vh;
+    padding: 0 25px;
+}
+.item{
+    height: 80%;
+}
+.orange{
+    background-color: orange;
+    width: 33.333%;
+    border-radius:5px 0 0 5px ;
+}
+.blue{
+    background: blue;
+    width: 33.333%;
+}
+.green{
+    width: 33.333%;
+    background: green;
+    border-radius: 0px 5px 5px 0px;
+}
+.text-container{
+    margin: 20px;
+    height: 100%;
+    position: relative;
+}
+.learn{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    bottom: 80px;
+    position: absolute;
+    border: none;
+    color: rgba(0, 0, 100, 0.5)
+}
